@@ -1,0 +1,75 @@
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: large;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, green, blue, red);
+}
+
+.quote-container {
+  width: 50vw;
+  min-height: 100px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(100, 100, 100, 0.5);
+  background: rgb(250, 250, 250);
+
+  #text {
+    height: 60%;
+    background: transparent;
+    height: 200px;
+    padding: 10px;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  #author {
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: center;
+    font-size: 1.5em;
+  }
+
+  #button-container {
+    display: relative;
+    width: 100%;
+  }
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.show-border {
+  /*border-style: dashed;
+  border-color: grey;
+  border-width: 1px; */
+}
+
+a {
+}
+
+.icon-centered {
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
